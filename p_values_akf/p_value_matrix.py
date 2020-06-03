@@ -6,8 +6,8 @@ def p_value_matrix(feature):
     import numpy as np
 
     #Set list of countries
-    countries = ['Global', 'US', 'India', 'Brazil', 'UK', 'Malaysia', 'Japan',
-    'Australia', 'France', 'South Africa', 'Taiwan', 'Hong Kong']
+    countries = ['Global', 'US', 'India', 'Brazil', 'UK', 'Malaysia', 'Japan',\
+        'Australia', 'France', 'South Africa', 'Taiwan', 'Hong Kong']
 
     # Generate dictionary that holds each pd as country:pd and array of 0's to hold t test values
     pd_dict = {}
